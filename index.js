@@ -2,8 +2,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
-const questions = [
+// array of questions for user input
+const questions = () => {
+    return inquirer.prompt([
     {
         type: 'input',
         name: 'title',
@@ -54,13 +55,26 @@ const questions = [
         name: 'email',
         message: 'Please enter your email'
     },
-];
-
+])
+.then((data) => {
+    console.log('data', data);
+    const createReadme = `
+    #Title ${data.title}
+    
+    ##Description ${data.description}
+    `;
+    console.log(createReadme);
+})
+};
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    questions();
+}
 
 // Function call to initialize app
 init();
