@@ -27,9 +27,9 @@ const questions = () => {
         message: 'Describe how the application is to be used:'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'Please enter a license:'
+        choices: ['MIT', 'GPL',]
     },
     {
         type: 'input',
@@ -68,10 +68,6 @@ const questions = () => {
 })
 })
 };
- 
-
-
-// TODO: Create a function to write README file
 
 
 // TODO: Create a function to initialize app
