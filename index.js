@@ -29,7 +29,7 @@ const questions = () => {
     {
         type: 'list',
         name: 'license',
-        choices: ['MIT', 'GPL',]
+        choices: ['MIT', 'GPL_v2', 'WTFPL', 'MPL_2.0', 'N/A']
     },
     {
         type: 'input',
@@ -73,7 +73,7 @@ const questions = () => {
 // TODO: Create a function to initialize app
 function init() {
     questions();
-}
+};
 
 // Function call to initialize app
 init()
