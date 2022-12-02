@@ -1,4 +1,4 @@
-# README generator
+# README Generator
   
   ## Table of Contents
   * [Description](#description)
@@ -11,26 +11,26 @@
   * [Credits](#name)
   
   ## Description
-  Application takes in user input and generates a readme.md file for their specific project, including: table of contents, instructions on installation and usage, contact information, and license badge and link.
+  App takes in user input through inquirer and creates a custom readme.md file.  If the user wishes to include a license the app will print badge and link for specific license.
 
   ## Installation
-  Clone remote repo to local machine
+  Copy remote repo to local and install packages.
 
   ## Usage
-  User inputs the required data to generate a customized readme.md file
+  Run the program in node and answer the prompts to generate readme
 
-  ## License
+  
   
   
   
   ## Contributions
-  Contact for permission 
+  Contact owner.
 
   ## Tests
   N/A
 
   ## Questions
-  Feel free to contact me at: nrhoda14@gmail.com
+  nrhoda14@gmail.com
 
   ## Credit
   Nicholas Rhoda

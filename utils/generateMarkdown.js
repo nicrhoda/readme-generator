@@ -31,7 +31,7 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `## License 
-    Licensed under: ${renderLicenseBadge(data.license)} Link: ${renderLicenseLink(data.license)}`
+    Licensed under: ${license}`
   }
 }
 
@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
+  ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}
   ${renderLicenseLink(data.license)}
   
