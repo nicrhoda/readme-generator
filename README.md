@@ -1,4 +1,4 @@
-# Social Network API
+# README Generator
   
   ## Table of Contents
   * [Description](#description)
@@ -11,24 +11,23 @@
   * [Credits](#name)
   
   ## Description
-  An API for a social network app in which you can share thoughts and react to thoughts.  This is done by utilizing MongoDB for the database and Express for the routing.
+  This app allows the user to create a customized readme file for their projects using node.
 
   ## Installation
-  To install and use this backend you must clone repo to local machine and install required packages.  Postman or Insomnia is reccomended to execute requests.
+  Clone repo to local machine and run the index file in node.
 
   ## Usage
-  Start the application using npm start or node index.js and using localhost:3001 in insomnia to access all of the functionality of the app.
+  The user must fill out the required fields with the information about their application to generate a new readme.md file.
 
-  ## License 
-    Licensed under: MIT
-  ![MITLicense](https://img.shields.io/badge/License-MIT-blue.svg)]
-  https://www.mit.edu/~amini/LICENSE.md
+  
+  
+  
   
   ## Contributions
-  Contact Authot
+  Contact Author
 
   ## Tests
-  Running the various routes using Insomnia or Postman.
+  By running the app locally and creating new readme file.
 
   ## Questions
   nrhoda14@gmail.com
